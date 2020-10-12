@@ -11,11 +11,11 @@ Please check contrib.md for contribution guidelines
 
 To install Django on your local machines use the below link
 
-1.[Django Installation](https://www.digitalocean.com/community/tutorials/how-to-install-django-and-set-up-a-development-environment-on-ubuntu-16-04)
+1. [Django Installation](https://www.digitalocean.com/community/tutorials/how-to-install-django-and-set-up-a-development-environment-on-ubuntu-16-04)
 
-2. Install MYSQL
- Since the entire database is based on mysql format ,create a mysql server on your machine . To install mysql use the below link:
- [mysql](https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database)
+2. Install MYSQL: 
+   Since the entire database is based on mysql format ,create a mysql server on your machine . To install mysql use the below link:
+   [mysql](https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database)
  
 PLEASE NOTE ..
 After creating database as the above step follow the below commands
@@ -68,5 +68,7 @@ After creating database as the above step follow the below commands
  ## Congrates you just started interact on your local server
  Keep contributing . Hav a bug free code :)
  
+ ### For issues in installation 
+ Open an issue with label installation-error 
  
  
