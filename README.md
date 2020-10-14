@@ -70,5 +70,5 @@ After creating database as the above step follow the below commands
  
  ### For issues in installation 
  Open an issue with label installation-error 
- 
+ Ping us your issues at our telegram channel [telegram](https://t.me/DscIIITSurat)
  
