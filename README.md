@@ -2,7 +2,7 @@
 An initiative to create unofficial site of our college.
 
 ## Contribution Guidelines 
-Please check contrib.md for contribution guidelines. Open for developers having idea about Django, HTML, CSS 
+Please check [contrib.md](https://github.com/DSC-IIIT-Surat/Interact/blob/main/contrib.md) for contribution guidelines. Open for developers having idea about Django, HTML, CSS 
 
 
 ## Installation
