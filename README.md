@@ -72,3 +72,8 @@ After creating database as the above step follow the below commands
  Open an issue with label installation-error 
  Ping us your issues at our telegram channel [telegram](https://t.me/DscIIITSurat)
  
+ ### Maintainers 
+ [Ekta Arora](https://github.com/ektaarora3501)
+ 
+ [Dhairya Patel](https://github.com/AAA530/)
+ 
