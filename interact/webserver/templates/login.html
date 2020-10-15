@@ -8,44 +8,27 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>register page</title>
-    <style>
-
-.hii{
-  height: 700px;
-
-}
-.trans{
-    background-color:rgba(0, 0, 0, 0.685);
-    padding:40px 40px;
-    width: 800px;
-    color:rgb(230, 247, 225);
-    margin-top: 30px;
-}
-.dark{
-    background-color: #050301;
-}
-    </style>
-
+    <link rel="stylesheet" href="..\static\css\login.css">
   </head>
 
 
 
 
   <body>
-<div style="background-image : url(https://cdn.pixabay.com/photo/2016/12/14/04/08/thunderbolt-1905603_960_720.png);">
+<!--<div style="background-image : url(https://cdn.pixabay.com/photo/2016/12/14/04/08/thunderbolt-1905603_960_720.png);">-->
 
-      <nav class="navbar navbar-expand-md navbar-dark dark sticky-top">
+<nav class="navbar navbar-expand-md navbar-dark dark sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">LOGO</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -58,45 +41,40 @@
           </li>
         </ul>
       </div>
-
     </div>
+</nav>
 
-  </nav>
-
-      <div style="background-image : url(https://cdn.pixabay.com/photo/2016/12/14/04/08/thunderbolt-1905603_960_720.png);">
+<!--      <div style="background-image : url(https://cdn.pixabay.com/photo/2016/12/14/04/08/thunderbolt-1905603_960_720.png);">-->
 
 <div class="hii">
-<div class="container trans">
+<div class="container trans p-5">
+    <div class="row my-3" id="welcome-back-text">
+        <h2 class="m-auto">
+            Welcome Back!!
+        </h2>
+    </div>
 
-  <form action="" method="post" >
-          <div class="form-group">
-      {% csrf_token %}
-    {% for field in form %}
-      <div class="row">
-         <div class="col-md-2">
-          <label for="exampleInputEmail1">{{ field.label_tag }}</label>
-           <!div class="form-control" id="exampleInputEmail1">
-           <br>{{ field }}
-         <!/div>
-          {% if field.help_text %}
-            <sup>{{ field.help_text }}</sup>
-          {% endif %}
-          <div class="error">
-          {{ field.errors }}
+    <div class="row my-5">
+        <div class="col">
+            <img src="https://images.shiksha.com/mediadata/images/1563536259phpkETZpK.jpeg">
         </div>
 
-         </div>
-  </div>
-         </div>
-   {% endfor %}
-   <div class="field">
-     <br>
-    <input type="submit" value="Submit">
+        <div class="col">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="emailid" class="form-label mt-3"> Email Id</label>
+                    <input class="form-control" type="email" id="enter-email" placeholder="Enter your email here">
+                    <label for="password" class="form-label mt-4"> Password</label>
+                    <input class="form-control" type="password" id="enter-password" placeholder="Enter your email here">
 
+                    <button type="submit" class="btn btn-outline-secondary m-3">Jump back in!</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
   </div>
   </div>
-  </div>
-    </form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -107,3 +85,31 @@
   </div>
   </body>
 </html>
+
+
+<!--commented code goes here-->
+
+<!--        <img src="https://images.shiksha.com/mediadata/images/1563536259phpkETZpK.jpeg">-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--  <form action="" method="post" >-->
+<!--          <div class="form-group">-->
+<!--      {% csrf_token %}-->
+<!--    {% for field in form %}-->
+<!--      <div class="row">-->
+<!--         <div class="col-md-2">-->
+<!--          <label for="exampleInputEmail1">{{ field.label_tag }}</label>-->
+<!--           <!div class="form-control" id="exampleInputEmail1">-->
+<!--           <br>{{ field }}-->
+<!--         <!/div>-->
+<!--          {% if field.help_text %}-->
+<!--            <sup>{{ field.help_text }}</sup>-->
+<!--          {% endif %}-->
+<!--          <div class="error">-->
+<!--          {{ field.errors }}-->
+<!--          </div>-->
+<!--         </div>-->
+<!--      </div>-->
+<!--   <div class="field">-->
+<!--     <br>-->
+<!--    <input type="submit" value="Submit">-->
