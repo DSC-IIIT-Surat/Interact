@@ -1,0 +1,46 @@
+.hii{
+  height: 700px;
+
+}
+
+*
+{
+    font-size: 18px;
+}
+
+#welcome-back-text
+{
+    color:black;
+}
+
+.trans
+{
+border: 1px solid black;
+}
+
+.form-label
+{
+    color:blue;
+}
+
+.trans{
+
+    <!-- background-color:rgba(0, 0, 0, 0.685); -->
+    padding:40px 40px;
+    width: 800px;
+    color:rgb(230, 247, 225);
+    margin-top: 30px;
+
+}
+
+.
+.dark{
+    background-color: #050301;
+}
+
+#login-image:
+{
+    height:250px;
+    width:200px;
+    border-radius:50%;
+}
