@@ -65,7 +65,7 @@ After creating database as the above step follow the below commands
  ```
  Your server will start at http://127.0.0.1:8000/interact/
  
- ## Congrates you just started interact on your local server
+ ## Congrats you just started interact on your local server
  Keep contributing . Hav a bug free code :)
  
  ### For issues in installation 
